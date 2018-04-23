@@ -1,0 +1,19 @@
+{
+  "name": "express_routing",
+  "version": "1.0.0",
+  "description": "basics of an express app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "javascript"
+  ],
+  "author": "Dean Roulston",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
