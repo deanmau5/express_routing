@@ -17,7 +17,6 @@ routes.get('/api/genres', (req, res) => {
 
 routes.post('/api/genres', (req, res) => {
     const newGenre = req.body.genre;
-    console.log(req.body);
     const genre = {
         id: genres.length+1,
         genre: newGenre
